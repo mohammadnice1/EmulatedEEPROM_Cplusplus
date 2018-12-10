@@ -1,0 +1,16 @@
+MAteeqEmulatedEEPROM.cpp:10:1:MAteeqEmulatedEEPROM::MAteeqEmulatedEEPROM(unsigned int, unsigned char, unsigned char, short unsigned int, MAteeqEmulatedEEPROM::EMULATED_EEPROM_SIZE)	24	static
+MAteeqEmulatedEEPROM.cpp:52:1:MAteeqEmulatedEEPROM::~MAteeqEmulatedEEPROM()	16	static
+MAteeqEmulatedEEPROM.cpp:52:1:virtual MAteeqEmulatedEEPROM::~MAteeqEmulatedEEPROM()	16	static
+MAteeqEmulatedEEPROM.cpp:57:6:bool MAteeqEmulatedEEPROM::Init()	16	static
+MAteeqEmulatedEEPROM.cpp:69:15:unsigned char MAteeqEmulatedEEPROM::GetChar(unsigned int)	16	static
+MAteeqEmulatedEEPROM.cpp:77:6:bool MAteeqEmulatedEEPROM::PutChar(unsigned int, unsigned char)	24	static
+MAteeqEmulatedEEPROM.cpp:88:6:void MAteeqEmulatedEEPROM::MemcpyToEEPROMwithChecksum(unsigned int, char*, unsigned int)	32	static
+MAteeqEmulatedEEPROM.cpp:103:6:bool MAteeqEmulatedEEPROM::MemcpyFromEEPROMwithChecksum(char*, unsigned int, unsigned int)	32	static
+MAteeqEmulatedEEPROM.cpp:123:46:MAteeqEmulatedEEPROM::EMULATED_EEPROM_STATUS MAteeqEmulatedEEPROM::EE_Format()	48	static
+MAteeqEmulatedEEPROM.cpp:166:16:short unsigned int MAteeqEmulatedEEPROM::EE_FindValidPage(short unsigned int)	24	static
+MAteeqEmulatedEEPROM.cpp:227:16:short unsigned int MAteeqEmulatedEEPROM::EE_VerifyPageFullWriteVariable(short unsigned int, short unsigned int)	40	static
+MAteeqEmulatedEEPROM.cpp:277:16:short unsigned int MAteeqEmulatedEEPROM::EE_PageTransfer(short unsigned int, short unsigned int)	56	static
+MAteeqEmulatedEEPROM.cpp:372:16:short unsigned int MAteeqEmulatedEEPROM::EE_VerifyPageFullyErased(unsigned int)	24	static
+MAteeqEmulatedEEPROM.cpp:400:16:short unsigned int MAteeqEmulatedEEPROM::EE_Init()	56	static
+MAteeqEmulatedEEPROM.cpp:641:16:short unsigned int MAteeqEmulatedEEPROM::EE_ReadVariable(short unsigned int, short unsigned int*)	40	static
+MAteeqEmulatedEEPROM.cpp:690:16:short unsigned int MAteeqEmulatedEEPROM::EE_WriteVariable(short unsigned int, short unsigned int)	24	static
